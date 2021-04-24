@@ -1,0 +1,130 @@
+body{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    height: 100vh;
+    font-family: sans-serif;
+    align-items: center;
+    background-image: linear-gradient(to right top ,#ff4988,#ffc781);
+    -webkit-animation: color-change-3x 3s linear infinite alternate both;
+    animation: color-change-3x 3s linear infinite alternate both;
+}
+@-webkit-keyframes color-change-3x {
+    0% {
+        background: #19dcea;
+    }
+    50% {
+        background: #ff4988;
+    }
+    100% {
+        background: #ffc781;
+    }
+}
+@keyframes color-change-3x {
+    0% {
+        background: #19dcea;
+    }
+    50% {
+        background: #ff4988;
+    }
+    100% {
+        background: #ffc781;
+    }
+}
+
+
+.signup{
+    background-color: #191919;
+    width: 500px;
+    height: 600px;
+    padding: 50px 30px;
+    
+}
+.form_head{
+    color: white;
+    text-align: center;
+}
+.alert{
+    color: red;
+    font-size: 15px;
+    text-align: center;
+}
+h1{
+    font-size: 40px;
+    margin-bottom: 10px;
+}
+p{
+    font-weight: bold;
+}
+.form_group{
+    margin-bottom: 10px;
+    width: 80%;
+
+}
+.form_group2{
+    display: flex;
+    width: 90%;
+
+
+}
+
+
+.form_input{
+    font-family: sans-serif;
+    border-radius: 50px;
+    padding:  15px;
+    color: white;
+    font-weight: bold;
+    width: 100%;
+    border: 2px solid #3498db;
+    background-color: #191919;
+    outline: none;
+    transition: linear 0.25s;
+    font-size: 16px;
+    margin-top: 30px;
+    text-align: center;
+    margin-left:40px ;
+
+
+
+}
+.form_input:focus{
+    border-color:red;
+    background-color: white;
+    color: blue;
+
+
+}
+.form_submit:hover{
+    background-color: white;
+    color: black;
+  border-color:white;
+
+}
+.form_submit{
+    text-transform: uppercase;
+    width: 300px;
+    height: 60px;
+    background-color: #191919;
+    border-radius: 50px;
+    border: 2px solid greenyellow;
+    margin-left:105px;
+    color: white;
+    font-size: 20px;
+    margin-top: 20px;
+
+}
+
+.b{
+    text-decoration: none;
+}
+.forgot_pass{
+    text-align: center;
+    margin-top: 20px;
+}
+.forgot_pass a{
+    color: wheat;
+}
+.openPass{
+ margin-left: 240px;
+}
